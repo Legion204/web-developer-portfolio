@@ -5,12 +5,12 @@ body {
 }
 
 .text-primary {
-    color:#00b4de;
+    color: #00b4de;
 }
 
 .btn-primary {
     border-radius: 5px;
-    background:#3abcd5;
+    background: #3abcd5;
     border: 0;
     color: white;
     font-size: 20px;
@@ -60,34 +60,65 @@ nav a {
 }
 
 .banner {
-    padding:30px 30px 0px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
 
 .banner .profile-pic {
     width: 540px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 0;
     color: #2b2a2a;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 700;
     font-size: 70px;
     margin-top: 0;
     margin-bottom: 0;
     color: #2b2a2a;
 }
-.banner-paragraph{
+
+.banner-paragraph {
     font-size: 20px;
     font-weight: 400;
     margin-top: 0;
     color: #2b2a2a;
+}
+
+/* main section style */
+
+
+
+/* about section style */
+.about {
+    padding: 130px;
+    background: #c8ebf4;
+    border-radius: 10px;
+    margin: 130px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #2b2a2a;
+}
+
+.section-paragraph {
+    color:2b2a2a;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
