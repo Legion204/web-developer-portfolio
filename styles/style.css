@@ -1,0 +1,93 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-primary {
+    color:#00b4de;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background:#3abcd5;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: #2b2a2a;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #2b2a2a;
+
+}
+
+/* header related styles */
+.header {
+    background-color: #C7E3F8;
+    background-image: url('../portfolio-resources/images/blue-paper-background.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+.banner {
+    padding:30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+
+.banner .profile-pic {
+    width: 540px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #2b2a2a;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #2b2a2a;
+}
+.banner-paragraph{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    color: #2b2a2a;
+}
